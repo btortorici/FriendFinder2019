@@ -1,20 +1,24 @@
 {
-  "name": "FriendFinder2019",
+  "name": "friend-finder",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Homework #13",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/btortorici/FriendFinder2019.git"
+    "url": "git+https://github.com/yoonslee/FriendFinder.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Yoon Lee",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/btortorici/FriendFinder2019/issues"
+    "url": "https://github.com/yoonslee/FriendFinder/issues"
   },
-  "homepage": "https://github.com/btortorici/FriendFinder2019#readme"
+  "homepage": "https://github.com/yoonslee/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  }
 }
